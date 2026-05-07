@@ -1,0 +1,34 @@
+{
+  "revision": 1,
+  "lastModified": "2026-01-01T00:00:00.000Z",
+  "lastModifiedBy": "Sistema",
+  "lastModifiedByUserId": "",
+  "users": {
+    "00000000": "teste"
+  },
+  "columns": [
+    {
+      "id": "backlog",
+      "name": "Backlog",
+      "wipLimit": null
+    },
+    {
+      "id": "andamento",
+      "name": "Em Andamento",
+      "wipLimit": null
+    },
+    {
+      "id": "pausa",
+      "name": "Em Pausa",
+      "wipLimit": null
+    },
+    {
+      "id": "concluido",
+      "name": "Concluído",
+      "wipLimit": null
+    }
+  ],
+  "cards": [],
+  "historyMonth": "2026-01",
+  "notifications": []
+}
