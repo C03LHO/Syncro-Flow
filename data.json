@@ -1,34 +1,49 @@
 {
-  "revision": 1,
-  "lastModified": "2026-01-01T00:00:00.000Z",
-  "lastModifiedBy": "Sistema",
+  "revision": 0,
+  "lastModified": "",
+  "lastModifiedBy": "",
   "lastModifiedByUserId": "",
-  "users": {
-    "00000000": "teste"
-  },
   "columns": [
-    {
-      "id": "backlog",
-      "name": "Backlog",
-      "wipLimit": null
-    },
-    {
-      "id": "andamento",
-      "name": "Em Andamento",
-      "wipLimit": null
-    },
-    {
-      "id": "pausa",
-      "name": "Em Pausa",
-      "wipLimit": null
-    },
-    {
-      "id": "concluido",
-      "name": "Concluído",
-      "wipLimit": null
-    }
+    { "id": "backlog", "name": "Backlog", "wipLimit": null, "isBacklog": true },
+    { "id": "andamento", "name": "Em Andamento", "wipLimit": null },
+    { "id": "concluido", "name": "Concluído", "wipLimit": null }
   ],
   "cards": [],
-  "historyMonth": "2026-01",
-  "notifications": []
+  "historyMonth": "",
+  "notifications": [],
+  "users": {},
+  "people": [],
+  "achievements": {},
+  "notices": [],
+  "teamGoal": { "weekly": 0, "monthly": 0 },
+  "backups": [],
+  "accessRequests": [],
+  "weeklySnapshots": [],
+  "customFields": [],
+  "roleHistory": [],
+  "monthlyPerformance": {},
+  "visionNotifV45Sent": false,
+  "visionConfig": {
+    "enabled": false,
+    "label": "Categoria",
+    "required": false,
+    "options": []
+  },
+  "maintenanceMode": {
+    "enabled": false,
+    "message": "",
+    "scheduledStart": "",
+    "expectedReturn": "",
+    "activatedBy": "",
+    "activatedAt": "",
+    "dismissedBy": []
+  },
+  "duplicateDetection": {
+    "enabled": true,
+    "threshold": "medium"
+  },
+  "system": {
+    "cardFieldConfig": {},
+    "firstRunDone": false
+  }
 }
